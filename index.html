@@ -17,7 +17,7 @@
     <!-- Download link & phone video -->
     <section>
         <a href="#">Download Excursion (Coming soon!)</a>
-        <video autoplay>
+        <video autoplay muted loop>
             <source src="/resources/videos/excursion.mov" type="video/mp4">
             Video not supported.
         </video>
@@ -32,11 +32,13 @@
 
     <!-- Phone icon, copyright, etc. -->
     <footer>
-        <img src="resources/images/phone.webp">
+        <img src="resources/images/phone.webp" class="phone-img">
         <h2>Coming Soon for iPhone and Android</h2>
         <a href="#">Download Excursion (Coming Soon!)</a>
-        <i class="far fa-copyright"></i>
-        <p>Excursion</p>
+        <div class="copyright-container">
+            <i class="far fa-copyright"></i>
+            <p class="copyright">Excursion</p>
+        </div>
     </footer>
 </body>
 </html>

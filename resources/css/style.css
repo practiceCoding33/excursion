@@ -1,3 +1,48 @@
 body {
-    background-color: gray;
+    background-color: black;
+    text-align: center;
+}
+
+h1, h2 {
+    color: white
+}
+
+p, i {
+    color: gray;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+    font-family: Verdana;
+    text-align: center;
+}
+
+a {
+    font-size: 16px;
+    color: aquamarine;
+    display: block;
+}
+
+h2 {
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 21px;
+}
+
+.phone-img {
+    margin-top: 25px;
+}
+
+.copyright-container {
+    text-align: right;
+}
+
+.copyright {
+    display: inline-block;
 }
